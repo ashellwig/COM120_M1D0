@@ -14,6 +14,7 @@
 *.ind
 *.lof
 *.lot
+*.fff
 *.out
 *.toc
 *.acn
