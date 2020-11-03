@@ -1,0 +1,37 @@
+# CPP
+**/obj/**
+**/target/**
+!**/obj/debug/.gitkep
+!**/target/debug/.gitkeep
+
+# LaTeX
+*_temp.tex
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.log
+*.fdb_latexmk
+*.synctex.gz
+*.lol
+*.run.xml
+*.pdf
+!**/finals/*.html
+
+# Javascript
+**/node_modules/**
+coverage
