@@ -8,7 +8,7 @@
  .Parameter OutputType
   The filetype of the output to be generated when compiling the LaTeX project.
 
- .Parameter Path
+ .Parameter ProjectPath
   The path to the root of the LaTeX project.
 
  .Example
@@ -79,5 +79,3 @@ function Build-Latex-Project {
         }
     }
 }
-
-Export-ModuleMember -Function Show-Calendar
