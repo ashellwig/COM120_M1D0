@@ -1,4 +1,38 @@
 {
+    /* Files */
+    // Exclude from Explorer
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*_temp.tex": true,
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.bcf": true,
+        "**/*.blg": true,
+        "**/*.idx": true,
+        "**/*.ind": true,
+        "**/*.lof": true,
+        "**/*.lot": true,
+        "**/*.fff": true,
+        "**/*.out": true,
+        "**/*.toc": true,
+        "**/*.acn": true,
+        "**/*.acr": true,
+        "**/*.alg": true,
+        "**/*.glg": true,
+        "**/*.glo": true,
+        "**/*.gls": true,
+        "**/*.ist": true,
+        "**/*.fls": true,
+        "**/*.log": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.synctex.gz": true,
+        "**/*.lol": true,
+        "**/*.run.xml": true,
+    },
     /* Programming Languages */
     // LaTeX
     "[latex]": {
@@ -85,5 +119,10 @@
             ],
             "env": {}
         }
-    ]
+    ],
+    // PowerShell
+    "[powershell]": {
+        "files.encoding": "utf8bom",
+        "files.autoGuessEncoding": true
+    }
 }

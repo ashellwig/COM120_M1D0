@@ -1,9 +1,3 @@
-# CPP
-**/obj/**
-**/target/**
-!**/obj/debug/.gitkep
-!**/target/debug/.gitkeep
-
 # LaTeX
 *_temp.tex
 *.aux
@@ -31,8 +25,5 @@
 *.lol
 *.run.xml
 *.pdf
-!**/finals/*.html
-
-# Javascript
-**/node_modules/**
-coverage
+!**/out/*.html
+!**/out/*.pdf
